@@ -1,4 +1,4 @@
-# Active_Directory_Preparation_in_Azure
+# Active_Directory_Preparation
 
 <p align="center">
 <img src="https://i.imgur.com/dD3HdHo.jpeg" alt="Microsoft Active Directory Logo"/>
