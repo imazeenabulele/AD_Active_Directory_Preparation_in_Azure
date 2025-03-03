@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-In this first section, the preparation for setting up Active Directory will be shown following the steps listed above. Virtual machines would be set up, one of which would act as a *Domain Controller* running Windows server while the other would act as a *Client* running Windows 10.
+In this first section, the preparation for setting up Active Directory will be shown following the steps listed above. Virtual machines would be set up, one of which would act as a *Domain Controller* running Windows server while the other would act as a *Client* running Windows 10.<br /> We'll start off by creating a Resource group.  Resource Group is a container that holds related resources for an Azure solution. It helps organize, manage, and monitor resources such as virtual machines, databases, storage accounts, and networking component
 </p>
 <br />
 <p>
