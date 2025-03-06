@@ -53,7 +53,9 @@ Operating System: Windows (Windows Server 2022 Datacenter Azure Edition)
 <br />
 Second VM<br />
 Name: client 1
-Operating System: Windows (Windows 10 Pro)
+Operating System: Windows (Windows 10 Pro) <br />
+
+To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run). On the networking page, make sure the Virtual network created earleir is slected. Click "Review+Create" and then "Create"
 </p>
 <br />
 
