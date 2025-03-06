@@ -56,7 +56,7 @@ SECOND VIRTUAL MACHINE(VM)<br />
 Name: client 1<br />
 Operating System: Windows (Windows 10 Pro) <br />
 
-To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run). On the networking page, make sure the Virtual network created earlier is selected. Click "Review+Create" and then "Create".
+To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run), set the username and password(this will be needed later to remotely connect to the VM). On the networking page, make sure the Virtual network created earlier is selected. Click "Review+Create" and then "Create".
 Repeat the same process to create both Virtual machines.  
 </p>
 <br />
@@ -66,7 +66,7 @@ Repeat the same process to create both Virtual machines.
 </p>
 <p>
 <br /><br /> Now we have the virtual machines running, the Domain Controller's NIC(network Interface card) Private IP address would be set to static. The reason for this is to ensure network stability, reliability and proper Active Directory functionality. A Domain controller provides essential services like DNS, DHCP, and authentication. If its IP address changes dynamically (via DHCP), clients and other servers may lose connection, leading to authentication failures. A static IP ensures that all devices and applications can consistently find the DC. 
-<br /><br /> Click on dc-1 > "Networking" > "Network settings" > Newtork INterface/IP config > ipconfig1 > Allocation to be STATIC
+<br /><br /> Click on dc-1 > "Networking" > "Network settings" > Newtork Interface/IP config > ipconfig1 > Allocation to be STATIC
 </p>
 <br />
 
@@ -76,9 +76,18 @@ Repeat the same process to create both Virtual machines.
 <br />
 
 <p>
-Next, login into the VM's through "REMOTE DESKTOP CONNECTION". Look in the search tab on your computer. We'll take the Public IP addresses for each VM and login in remotely
+Next, login into the VM's through "REMOTE DESKTOP CONNECTION". Look in the search tab on your computer. We'll take the Public IP addresses for each VM and login in remotely. <br />
+We'll login into the VM: dc-1, using its public IP address. Input the username and password that was set when creating the VM. (NOTE: To input username and password, click on "More choices" and "Use a different account")
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/r7er6us.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/6i60hEm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 
 
