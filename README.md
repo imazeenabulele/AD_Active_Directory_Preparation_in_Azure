@@ -39,7 +39,7 @@ We'll start off by creating a Resource group.  Resource Group is a container tha
 <img src="https://i.imgur.com/qwgqJOD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p> 
 <p>
-Next, we'll create a Virtual Network. A Virtual Network is a foundational networking service that enables secure communication between Azure resources, the internet, and on-premises networks. It is similar to a traditional network in an on-premises data center but provides the scalability and flexibility of the cloud.
+Next, we'll create a Virtual Network. Once it is created, we'll move on to creating the virtual machines. <br /> A Virtual Network is a foundational networking service that enables secure communication between Azure resources, the internet, and on-premises networks. It is similar to a traditional network in an on-premises data center but provides the scalability and flexibility of the cloud.
 <br />
 
 <p>
