@@ -48,7 +48,7 @@ Next, we'll create a Virtual Network. Once it is created, we'll move on to creat
 <p>
 We will have two(2) virtual machines(VM) created for this project. The first VM will serve a the Domain Controller(DC) while the other will serve as the client. 
 <br /><br /> A Domain Controller (DC) is a server in a Windows Server Active Directory (AD) environment that manages network security, authentication, and access control. It is responsible for authenticating and authorizing users and computers in a domain by handling login requests, enforcing security policies, and managing user accounts.
-<br /> FIRST VIRUAL MACHINE<br />
+<br /> <br /> FIRST VIRUAL MACHINE<br />
 Name: DC-1<br />
 Operating System: Windows (Windows Server 2022 Datacenter Azure Edition)
 <br />
