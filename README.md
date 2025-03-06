@@ -46,16 +46,20 @@ Next, we'll create a Virtual Network. Once it is created, we'll move on to creat
 <img src="https://i.imgur.com/ia58fYB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-We will have two(2) virtual machines created for this project.  
-<br /> The first VM <br />
+We will have two(2) virtual machines(VM) created for this project. The first VM will serve a the Domain Controller(DC) while the other will serve as the client. 
+<br /> A Domain Controller (DC) is a server in a Windows Server Active Directory (AD) environment that manages network security, authentication, and access control. It is responsible for authenticating and authorizing users and computers in a domain by handling login requests, enforcing security policies, and managing user accounts.
+<br /> FIRST VIRUAL MACHINE<br />
 Name: DC-1
 Operating System: Windows (Windows Server 2022 Datacenter Azure Edition)
 <br />
-Second VM<br />
+SECOND VIRTUAL MACHINE(VM)<br />
 Name: client 1
 Operating System: Windows (Windows 10 Pro) <br />
 
-To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run). On the networking page, make sure the Virtual network created earleir is slected. Click "Review+Create" and then "Create"
+To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run). On the networking page, make sure the Virtual network created earlier is slected. Click "Review+Create" and then "Create". 
+<br />
+Repeat the same process to creat both Virtual machines
+Now we have the virtual machines running, the Domain Controller's NIC(network Interface card) Private IP address would be set to static. 
 </p>
 <br />
 
