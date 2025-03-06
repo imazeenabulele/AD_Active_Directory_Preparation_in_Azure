@@ -46,7 +46,14 @@ Next, we'll create a Virtual Network. Once it is created, we'll move on to creat
 <img src="https://i.imgur.com/ia58fYB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We will have two(2) virtual machines created for this project.  
+<br /> The first VM <br />
+Name: DC-1
+Operating System: Windows (Windows Server 2022 Datacenter Azure Edition)
+<br />
+Second VM<br />
+Name: client 1
+Operating System: Windows (Windows 10 Pro)
 </p>
 <br />
 
