@@ -56,9 +56,8 @@ SECOND VIRTUAL MACHINE(VM)<br />
 Name: client 1<br />
 Operating System: Windows (Windows 10 Pro) <br />
 
-To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run). On the networking page, make sure the Virtual network created earlier is selected. Click "Review+Create" and then "Create". 
-<br />
-Repeat the same process to create both Virtual machines. <br /> Now we have the virtual machines running, the Domain Controller's NIC(network Interface card) Private IP address would be set to static. The reason for this is to ensure network stability, reliability and proper Active Directory functionality. A Domain controllee provides essential services like DNS, DHCP, and authentication. If its IP address changes dynamically (via DHCP), clients and other servers may lose connection, leading to authentication failures. A static IP ensures that all devices and applications can consistently find the DC. 
+To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run). On the networking page, make sure the Virtual network created earlier is selected. Click "Review+Create" and then "Create".
+Repeat the same process to create both Virtual machines.  <br /><br /> Now we have the virtual machines running, the Domain Controller's NIC(network Interface card) Private IP address would be set to static. The reason for this is to ensure network stability, reliability and proper Active Directory functionality. A Domain controllee provides essential services like DNS, DHCP, and authentication. If its IP address changes dynamically (via DHCP), clients and other servers may lose connection, leading to authentication failures. A static IP ensures that all devices and applications can consistently find the DC. 
 </p>
 <br />
 
