@@ -73,8 +73,12 @@ Repeat the same process to create both Virtual machines.
 <p>
 <img src="https://i.imgur.com/EFpnj7L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
+<br />
 
+<p>
+Next, login into the VM's through "REMOTE DESKTOP CONNECTION". Look in the search tab on your computer. We'll take the Public IP addresses for each VM and login in remotely
 </p>
 <br />
+
+
 
