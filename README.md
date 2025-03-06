@@ -47,13 +47,13 @@ Next, we'll create a Virtual Network. Once it is created, we'll move on to creat
 </p>
 <p>
 We will have two(2) virtual machines(VM) created for this project. The first VM will serve a the Domain Controller(DC) while the other will serve as the client. 
-<br /> A Domain Controller (DC) is a server in a Windows Server Active Directory (AD) environment that manages network security, authentication, and access control. It is responsible for authenticating and authorizing users and computers in a domain by handling login requests, enforcing security policies, and managing user accounts.
+<br /><br /> A Domain Controller (DC) is a server in a Windows Server Active Directory (AD) environment that manages network security, authentication, and access control. It is responsible for authenticating and authorizing users and computers in a domain by handling login requests, enforcing security policies, and managing user accounts.
 <br /> FIRST VIRUAL MACHINE<br />
-Name: DC-1
+Name: DC-1<br />
 Operating System: Windows (Windows Server 2022 Datacenter Azure Edition)
 <br />
 SECOND VIRTUAL MACHINE(VM)<br />
-Name: client 1
+Name: client 1<br />
 Operating System: Windows (Windows 10 Pro) <br />
 
 To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run). On the networking page, make sure the Virtual network created earlier is slected. Click "Review+Create" and then "Create". 
