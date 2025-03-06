@@ -95,11 +95,22 @@ Now we'll set client-1's DNS settings to DC-1's Private IP address.<br />
 
 Active Directory uses DNS to locate Domain Controllers(DC) and other directory services. The reason for setting client-1's DNS settings to private IP of DC-1 is to prevent failure in authentication and access to domain resources. To explain this better, when a VM(client-1) joins the domain, it needs to use the DC's DNS rather than the Virtual network's DNS server, which in this case would be Azure. <br /> 
 
-Take the IP address of DC-1, navigate to "client-1" > network settings > "Network interface/ipconfig" > "DNS servers" > select "Custom" and input the ip address
+Take the IP address of DC-1, navigate to "client-1" > network settings > "Network interface/ipconfig" > "DNS servers" > select "Custom" and input the ip address. Save the settings . Go back to client-1 VM and restart it
 </p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/tTpI7Bu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br /><br />
+
+
+<p>
+Next, gngnnn
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/KLyjIkt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br /><br />
