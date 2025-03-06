@@ -48,7 +48,7 @@ Next, we'll create a Virtual Network. Once it is created, we'll move on to creat
 <p>
 We will have two(2) virtual machines(VM) created for this project. The first VM will serve a the Domain Controller(DC) while the other will serve as the client. 
 <br /><br /> A Domain Controller (DC) is a server in a Windows Server Active Directory (AD) environment that manages network security, authentication, and access control. It is responsible for authenticating and authorizing users and computers in a domain by handling login requests, enforcing security policies, and managing user accounts.
-<br /> <br /> FIRST VIRUAL MACHINE<br />
+<br /> <br /> FIRST VIRTUAL MACHINE<br />
 Name: DC-1<br />
 Operating System: Windows (Windows Server 2022 Datacenter Azure Edition)
 <br />
@@ -56,10 +56,9 @@ SECOND VIRTUAL MACHINE(VM)<br />
 Name: client 1<br />
 Operating System: Windows (Windows 10 Pro) <br />
 
-To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run). On the networking page, make sure the Virtual network created earlier is slected. Click "Review+Create" and then "Create". 
+To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run). On the networking page, make sure the Virtual network created earlier is selected. Click "Review+Create" and then "Create". 
 <br />
-Repeat the same process to creat both Virtual machines
-Now we have the virtual machines running, the Domain Controller's NIC(network Interface card) Private IP address would be set to static. 
+Repeat the same process to create both Virtual machines. <br /> Now we have the virtual machines running, the Domain Controller's NIC(network Interface card) Private IP address would be set to static. The reason for this is to ensure network stability, reliability and proper Active Directory functionality. A Domain controllee provides essential services like DNS, DHCP, and authentication. If its IP address changes dynamically (via DHCP), clients and other servers may lose connection, leading to authentication failures. A static IP ensures that all devices and applications can consistently find the DC. 
 </p>
 <br />
 
@@ -67,6 +66,6 @@ Now we have the virtual machines running, the Domain Controller's NIC(network In
 <img src="https://i.imgur.com/2cdkZFq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
