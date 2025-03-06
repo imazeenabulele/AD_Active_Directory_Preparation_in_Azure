@@ -66,7 +66,7 @@ Repeat the same process to create both Virtual machines.
 </p>
 <p>
 <br /><br /> Now we have the virtual machines running, the Domain Controller's NIC(network Interface card) Private IP address would be set to static. The reason for this is to ensure network stability, reliability and proper Active Directory functionality. A Domain controller provides essential services like DNS, DHCP, and authentication. If its IP address changes dynamically (via DHCP), clients and other servers may lose connection, leading to authentication failures. A static IP ensures that all devices and applications can consistently find the DC. 
-<br /> Click on dc-1 > "Networking" > "Network settings" > Newtork INterface/IP config > ipconfig1 > Allocation to be STATIC
+<br /><br /> Click on dc-1 > "Networking" > "Network settings" > Newtork INterface/IP config > ipconfig1 > Allocation to be STATIC
 </p>
 <br />
 
@@ -78,26 +78,3 @@ Repeat the same process to create both Virtual machines.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/2cdkZFq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/2cdkZFq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/2cdkZFq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
