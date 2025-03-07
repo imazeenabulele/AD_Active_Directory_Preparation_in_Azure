@@ -105,7 +105,7 @@ Take the IP address of DC-1, navigate to "client-1" > network settings > "Networ
 
 
 <p>
-Once that's done, we will login to client-1's vm and attempt to ping DC-1's private IP address. We'll login in to client-1's VM in same way, we logged into DC-1 via Remote Desktop Connection. Once logged in, open up "Windows Powershell" and type "ping 10.0.0.4"
+Once that's done, we will login to client-1's VM and attempt to ping DC-1's private IP address. We'll login to client-1's VM in same way, we logged into DC-1 via Remote Desktop Connection. Once logged in, open up "Windows Powershell" and type "ping 10.0.0.4"
 </p>
 <br />
 
@@ -113,3 +113,9 @@ Once that's done, we will login to client-1's vm and attempt to ping DC-1's priv
 <img src="https://i.imgur.com/KLyjIkt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br /><br />
+
+
+<p>
+We were successfully able to ping DC-1's private IP address as seen above. NOTE: If the response from the ping shows "Destination host unreachable", then probably it's on a different virtual network or the firewall's blocking the traffic
+</p>
+<br />
