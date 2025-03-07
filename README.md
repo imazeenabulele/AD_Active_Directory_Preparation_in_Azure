@@ -75,7 +75,7 @@ Repeat the same process to create both Virtual machines.
 <br />
 
 <p>
-Next, login into the VM's through "REMOTE DESKTOP CONNECTION". Look in the search tab on your computer. We'll take the Public IP addresses for each VM and login in remotely. <br />
+Next, login into DC-1's VM through "REMOTE DESKTOP CONNECTION". Look in the search tab on your computer. We'll take the Public IP addresse from DC-1 VM and login in remotely. <br />
 We'll login into the VM: dc-1, using its public IP address. Input the username and password that was set when creating the VM. (NOTE: To input username and password, click on "More choices" and "Use a different account")
 </p>
 <br />
@@ -105,7 +105,7 @@ Take the IP address of DC-1, navigate to "client-1" > network settings > "Networ
 
 
 <p>
-Next, gngnnn
+Once that's done, we will login to client-1's vm and attempt to ping DC-1's private IP address. We'll login in to client-1's VM in same way, we logged into DC-1 via Remote Desktop Connection. Once logged in, open up "Windows Powershell" and type "ping 10.0.0.4"
 </p>
 <br />
 
