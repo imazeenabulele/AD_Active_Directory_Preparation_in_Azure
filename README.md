@@ -117,7 +117,7 @@ Once that's done, we will login to client-1's VM and attempt to ping DC-1's priv
 <p>
 We were successfully able to ping DC-1's private IP address as seen above. NOTE: If the response from the ping shows "Destination host unreachable", then probably it's on a different virtual network or the firewall's blocking the traffic
 </p>
-<br /><br />
+<br />
 
 <p>
 To take a look at the IP configuration, we'll run "ip config /all".  This shows the DNS server's ip address as the DC-1's private Ip address. 
