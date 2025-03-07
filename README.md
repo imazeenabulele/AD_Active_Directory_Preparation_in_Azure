@@ -24,8 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Create two (2) vitrual machines
 - Set client to use Domain controller as DNS server
-- Step 3
-- Step 4
+- Set Client-1's DNS settings to the Domain Controller's Private IP addresss
 
 <h2>Deployment and Configuration Steps</h2>
 
