@@ -56,7 +56,7 @@ Name: client 1<br />
 Operating System: Windows (Windows 10 Pro) <br />
 
 To create a virtual machine, navigate to "Virtual Machines", choose the Resource group,  name the VM, select the region, select the image (base operating system), select the size (to support the workload to be run), set the username and password(this will be needed later to remotely connect to the VM). On the networking page, make sure the Virtual network created earlier is selected. Click "Review+Create" and then "Create".
-Repeat the same process to create both Virtual machines.  
+Repeat the same process to create the second virtual machine. 
 </p>
 <br />
 
