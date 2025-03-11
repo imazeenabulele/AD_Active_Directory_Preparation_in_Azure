@@ -50,7 +50,7 @@ We will have two(2) virtual machines(VM) created for this project. The first VM 
 <br /> <br /> FIRST VIRTUAL MACHINE<br />
 Name: DC-1<br />
 Operating System: Windows (Windows Server 2022 Datacenter Azure Edition)
-<br />
+<br /><br />
 SECOND VIRTUAL MACHINE(VM)<br />
 Name: client 1<br />
 Operating System: Windows (Windows 10 Pro) <br />
