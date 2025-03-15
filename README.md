@@ -75,8 +75,8 @@ Repeat the same process to create the second virtual machine.
 <br />
 
 <p>
-Next, login into DC-1's VM through "REMOTE DESKTOP CONNECTION". Look in the search tab on your computer. We'll take the Public IP addresse from DC-1 VM and login in remotely. <br />
-We'll login into the VM: dc-1, using its public IP address. Input the username and password that was set when creating the VM. (NOTE: To input username and password, click on "More choices" and "Use a different account")
+Next, login into DC-1's VM through "REMOTE DESKTOP CONNECTION". Look in the search tab on your computer. <br /><br />
+To login to the VM - DC-1, we'll use its public IP address. Input the username and password that was set when creating the VM. (NOTE: To input username and password, click on "More choices" and "Use a different account")
 </p>
 <br />
 
